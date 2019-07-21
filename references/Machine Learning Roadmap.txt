@@ -1,0 +1,156 @@
+Cientista de Dados
+	Pré-requisitos
+		Estatística
+			Bayes’ theorem, 15
+				Bayes theorem, 4, 156-159
+			hypothesis testing of, 144-145
+		Programação
+		Álgebra
+	Técnicas
+Algoritmos
+	Agrupamento
+		kmeans/k-meoids
+			K-means clustering, 460, 509-514
+			K-means clustering algorithm, 424, 443
+			K-medoids algorithm, 428
+			k-means problem, 191-193
+		dbscan
+		algoritmos hierárquicos
+		estratégias de definição do número de clusters
+			joelho / elbow
+			silhueta
+			distância intra-cluster
+		gaussian mixture models
+	Classificação
+		regressão logística
+			Logistic regression, 119-128, 299
+			logistic regression, 205, 336
+Bayesian, 217, 498
+mixture model, 670
+multiclass, 209
+		naive bayes (gaussiano vs bernoulli)
+			naive Bayes model, 46, 380
+			Naive Bayes classifier, 154-155, 177-179,197
+		knn
+			[Santander Value Prediction Challenge]
+Satander EDA. NN features + LGB
+			[Digit Recognizer]
+KNN explained
+			[Titanic: Machine Learning from Disaster]
+KNN on the Titanic
+			[TrackML Particle Tracking Challenge]
+kNN approach
+			K-nearest neighbor classifiers, 463
+			K nearest neighbours, 125
+			k-NEAREST NEIGHBOR algorithm, 231-233
+		boosting
+			gradient boosting
+				Gradient Boosting, 359-361
+				boosting, 657
+			ada boosting
+				Boosting, 337-386, 409 exponential loss and AdaBoost, 343
+				AdaBoost, 657, 658
+				AdaBoost implementation of, 100,
+100f
+			lightgbm
+				[Santander Value Prediction Challenge]
+Santander_Value_LightGBM_for_beginner
+				"LightGBM: A Highly Efficient Gradient Boosting Decision Tree"
+		árvores de classificação
+			Decision trees, 305-317
+			Tree-based Models, 663
+			Decision tree learning, 52-77
+			Decision trees, 97–99
+		random forest
+			Random forest, 409, 587-604 algorithm, 588
+			Random forest (RF) method, 97–99
+		redes neurais
+			neural network, 225
+convolutional, 267
+regularization, 256
+		svm
+	Regressão
+		regressão linear
+			Linear methods for regression, 43-99
+			linear regression, 138
+EM, 448
+mixture model, 667
+variational, 486
+			Regression, 236
+		regularização l1 e l2
+			Regularization, 34, 167-176
+			Regularization 4
+in Neural Networks 256
+		árvore de regressão
+		análise de resíduos
+	Ensemble modelling
+		Ensemble, 616-623 Ensemble learning, 605-624
+		Ensemble methods, 93–101
+"The Elements of Statistical Learning"
+"Pattern Recognition and Machine Learning"
+one-versus-one classifier, 183, 339
+one-versus-the-rest classifier, 182, 338
+"Machine Learning" Mitchell
+Validation set. See also Training and validation set approach, 69
+cross-validation and, 111-112
+error over, 110
+"Advances in Financial Machine Learning"
+Avaliação de modelos
+	Métricas
+		precision
+		r2
+		recall
+			Recall
+binary classification problems and,52, 52f
+measurement of, 206
+		f1
+			F1 scores
+measurement of, 206
+meta-labeling and, 52–53
+		mae
+		rmse
+			root-mean-square error, 6
+		auc
+			Receiver operating characteristic
+(ROC) curve, 317
+		gini
+			Gini index, 666
+			Gini index, 309
+		ks
+	Validação
+		out of time
+		out of sample
+			Out-of-Sample Monte Carlo Simulations, 234
+		k-fold
+			K-fold cross-validation (CV), 103–109
+			k-fold cross-validation, 112, 147, 150
+			K-Fold cross validation 241
+		leave one out
+			leave-one-out, 33
+		holdout
+			Schorfheide, F. and K. Wolpin (2012): “On the use of holdout samples for model selection.” American Economic Review, Vol. 102, No. 3, pp. 477–481.
+banco de dados
+	álgebra relacional
+	chaves primárias, secundárias e estrangeiras
+	sql
+	relacional
+Tratamento de dados
+	correlação
+	pca
+		Principal components analysis (PCA)
+hedging weights using, 35–36,
+35f
+linear substitution effects and, 118,119–121
+		principal component analysis, 561, 572, 593
+Bayesian, 580
+EM algorithm, 577
+Gibbs sampling, 583
+mixture distribution, 595
+physical analogy, 580
+		Principal components, 66-67, 79-80, 534-539, 547
+regression, 79-80
+sparse, 550
+supervised, 674
+	categorização de discretas e contínuas
+	tratamento de outliers
+	tratamento de missings
