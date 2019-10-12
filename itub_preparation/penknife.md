@@ -1,12 +1,12 @@
--[Functions](#functions)
--[Exploration](#exploration)
--[Data Preparation](#data-preparation)
--[Modelling](#modelling)
-	-[Splitting](#splitting)
-	-[Techniques](#techniques)
-		-[K-MEANS](#k-means)
-		-[DBSCAN](#dbscan)
-	-[Analysing](#analysing)
+- [Functions](#functions)
+- [Exploration](#exploration)
+- [Data Preparation](#data-preparation)
+- [Modelling](#modelling)
+	- [Splitting](#splitting)
+	- [Techniques](#techniques)
+		- [K-MEANS](#k-means)
+		- [DBSCAN](#dbscan)
+	- [Analysing](#analysing)
 
 - - -
 
