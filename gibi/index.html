@@ -7,7 +7,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
 
-<title>index slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>1_eda slides</title><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 <!-- General and theme style sheets -->
 <link rel="stylesheet" href="reveal.js/dist/reveal.css">
@@ -14414,22 +14414,7 @@ div.jp-OutputPrompt {
 <p>Por exemplo a pergunta sobre a influência de indicação de youtubers da pesquisa de 2018 abre o leque de mídias no ano seguinte:</p>
 
 </div>
-</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">q1</span> <span class="o">=</span> <span class="s2">&quot;você costuma comprar os quadrinhos indicados pelos youtubers?&quot;</span>
-<span class="n">q2</span> <span class="o">=</span> <span class="s2">&quot;você costuma comprar quadrinhos indicados por &quot;</span> \
-     <span class="o">+</span> <span class="s2">&quot;youtubers/podcasters ou figuras da mídia especializada?&quot;</span>
-<span class="n">display_side_by_side</span><span class="p">(</span><span class="n">d2018</span><span class="p">[[</span><span class="n">q1</span><span class="p">]]</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">3</span><span class="p">),</span> <span class="n">d2019</span><span class="p">[[</span><span class="n">q2</span><span class="p">]]</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
 
@@ -14453,16 +14438,16 @@ div.jp-OutputPrompt {
   </thead>
   <tbody>
     <tr>
-      <th>730</th>
+      <th>449</th>
       <td>Sim</td>
     </tr>
     <tr>
-      <th>151</th>
+      <th>3</th>
       <td>Não</td>
     </tr>
     <tr>
-      <th>970</th>
-      <td>Não</td>
+      <th>1533</th>
+      <td>Sim</td>
     </tr>
   </tbody>
 </table style="display:inline; margin-right:23px;"><table style="display:inline; margin-right:23px;" border="1" class="dataframe">
@@ -14474,16 +14459,16 @@ div.jp-OutputPrompt {
   </thead>
   <tbody>
     <tr>
-      <th>2177</th>
+      <th>1266</th>
+      <td>Sim</td>
+    </tr>
+    <tr>
+      <th>3324</th>
       <td>Não</td>
     </tr>
     <tr>
-      <th>1990</th>
-      <td>Não</td>
-    </tr>
-    <tr>
-      <th>1491</th>
-      <td>Não</td>
+      <th>1161</th>
+      <td>Sim</td>
     </tr>
   </tbody>
 </table style="display:inline; margin-right:23px;"></div>
@@ -14501,20 +14486,7 @@ div.jp-OutputPrompt {
 <p>Outro exemplo de necessidade de tratamento é o de perguntas conceitualmente idênticas, mas escritas de forma <strong>quase</strong> idênticas em diferentes pesquisas, como é o caso da questão de estado de origem:</p>
 
 </div>
-</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">display_side_by_side</span><span class="p">(</span><span class="n">d2018</span><span class="p">[[</span><span class="s2">&quot;qual seu estado de origem?&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">3</span><span class="p">),</span> 
-                     <span class="n">d2019</span><span class="p">[[</span><span class="s2">&quot;qual o seu estado de origem?&quot;</span><span class="p">]]</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
 
@@ -14538,16 +14510,16 @@ div.jp-OutputPrompt {
   </thead>
   <tbody>
     <tr>
-      <th>1074</th>
-      <td>Rio Grande do Sul (RS)</td>
+      <th>356</th>
+      <td>Panará (PR)</td>
     </tr>
     <tr>
-      <th>1735</th>
+      <th>1603</th>
       <td>São Paulo (SP)</td>
     </tr>
     <tr>
-      <th>1207</th>
-      <td>São Paulo (SP)</td>
+      <th>368</th>
+      <td>Pernambuco (PE)</td>
     </tr>
   </tbody>
 </table style="display:inline; margin-right:23px;"><table style="display:inline; margin-right:23px;" border="1" class="dataframe">
@@ -14559,15 +14531,15 @@ div.jp-OutputPrompt {
   </thead>
   <tbody>
     <tr>
-      <th>1695</th>
-      <td>Espírito Santo (ES)</td>
+      <th>3183</th>
+      <td>São Paulo (SP)</td>
     </tr>
     <tr>
-      <th>1064</th>
-      <td>Rio de Janeiro (RJ)</td>
+      <th>2260</th>
+      <td>São Paulo (SP)</td>
     </tr>
     <tr>
-      <th>83</th>
+      <th>1478</th>
       <td>São Paulo (SP)</td>
     </tr>
   </tbody>
@@ -14601,22 +14573,7 @@ div.jp-OutputPrompt {
 <p>A resposta como número é interessante pela possibilidade de cáculo de estatísticas mais simples como média e desvio padrão:</p>
 
 </div>
-</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[104]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;perfil_idade&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;perfil_idade&#39;</span><span class="p">]</span>
-<span class="n">mask</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;ano&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">([</span><span class="mi">2019</span><span class="p">,</span><span class="mi">2020</span><span class="p">])</span>
-<span class="n">tab</span>  <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="n">mask</span><span class="p">][[</span><span class="s1">&#39;perfil_idade&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">float64</span><span class="p">)</span>
-<span class="n">display_side_by_side</span><span class="p">(</span><span class="n">tab</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span><span class="o">.</span><span class="n">T</span><span class="o">.</span><span class="n">round</span><span class="p">(</span><span class="mi">3</span><span class="p">))</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
+</div><div class="fragment"><div class="jp-Cell jp-CodeCell jp-Notebook-cell  jp-mod-noInput ">
 
 <div class="jp-Cell-outputWrapper">
 
