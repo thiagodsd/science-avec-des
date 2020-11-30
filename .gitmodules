@@ -1,3 +1,6 @@
 [submodule "_gibi/reveal.js"]
 	path = _gibi/reveal.js
 	url = https://github.com/hakimel/reveal.js.git
+[submodule "gibi/reveal.js"]
+	path = gibi/reveal.js
+	url = https://github.com/hakimel/reveal.js.git
