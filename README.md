@@ -1,3 +1,3 @@
 # science-avec-des
 
-![](mafalda.jpg)
+![](img/mafalda.jpg)
