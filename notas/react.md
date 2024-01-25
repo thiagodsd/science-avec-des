@@ -108,3 +108,21 @@ npx create-react-app isadora-urel-landing-page
  1408  serve -s build
  1409  history
 ```
+
+```sh
+npx create-react-app dszero-landing-page
+#
+git init
+git remote add origin https://github.com/thiagodsd/dszero-landing-page.git
+git remote -v
+git pull origin main
+git add .
+git commit -m "Initial commit"
+git push -u origin main
+#
+npm install firebase
+npm install -g firebase-tools
+firebase login
+firebase init
+firebase deploy
+```
